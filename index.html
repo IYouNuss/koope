@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Süt Kooperatifi</title>
+    <link href="img/favicon.ico" rel="icon" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Buraya style.css bağlantısını ekle -->
+    <link rel="stylesheet" href="style.css" />
+
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+    <!-- Lightbox2 Kütüphanesi -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="hamburger" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+      </div>
+      <!-- Nav içine, logo ve ul arasına -->
+      <img
+        alt="Logo"
+        class="logo"
+        src="img/bdfc83df-c099-4eae-8917-9dca35c07bd1.png"
+      />
+      <ul>
+        <li>
+          <a class="active" href="#hero"> Anasayfa </a>
+        </li>
+        <li>
+          <a href="#hakkimizda"> Hakkımızda </a>
+        </li>
+        <li>
+          <a href="#hizmetler"> Hizmetlerimiz </a>
+        </li>
+        <li>
+          <a href="#team"> Yönetim </a>
+        </li>
+        <li>
+          <a href="#galeri"> Galeri </a>
+        </li>
+        <li>
+          <a href="#vizyon"> Vizyon </a>
+        </li>
+        <li>
+          <a href="#sayilarla"> İstatistik </a>
+        </li>
+        <li>
+          <a href="#iletisim"> İletişim </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Hero / Giriş -->
+    <header class="hero" id="hero">
+      <div class="content">
+        <h1>Süt Kooperatifi</h1>
+        <p>Yerel üreticilerle el ele, sofralarınıza taze süt ulaştırıyoruz.</p>
+        <div class="button-group">
+          <a class="btn" href="#hakkimizda">
+            <i class="fas fa-info-circle"></i>
+            Daha Fazla
+          </a>
+          <a class="btn" href="#iletisim">
+            <i class="fas fa-info-circle"></i>
+            İletişim için Tıklayın
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hakkımızda -->
+    <section id="hakkimizda">
+      <h2>Hakkımızda</h2>
+      <div class="about-grid">
+        <img
+          alt="Süt üretimi"
+          src="https://images.unsplash.com/photo-1598970434795-0c54fe7c0642?auto=format&amp;fit=crop&amp;w=800&amp;q=60"
+        />
+        <div class="about-text">
+          <p>
+            Tefenni Süt Kooperatifi olarak 2018 yılında kurulduk. Amacımız;
+            bölgedeki üreticilerimizin ürünlerini kaliteli, hijyenik ve
+            güvenilir şekilde toplayıp, tüketicilerimize ulaştırmaktır.
+          </p>
+          <p>
+            Kooperatifimiz, modern teknolojiyi ve titiz kalite kontrol
+            süreçlerini kullanarak en taze sütü sofralarınıza getirmeyi
+            amaçlamaktadır.
+          </p>
+          <p>
+            100'den fazla üreticimizle birlikte günlük tonlarca süt toplayıp,
+            bölgenin süt ihtiyacını karşılıyoruz.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Hizmetlerimiz -->
+    <section id="hizmetler">
+      <h2>Hizmetlerimiz</h2>
+      <div class="card-grid">
+        <div class="service-card">
+          <img
+            alt="Süt Toplama"
+            src="https://img.icons8.com/ios-filled/100/4caf50/milk-bottle.png"
+          />
+          <h3>Süt Toplama</h3>
+          <p>
+            Günlük taze sütleri hijyenik koşullarda toplayarak kalitesini
+            koruyoruz.
+          </p>
+        </div>
+        <div class="service-card">
+          <img
+            alt="Soğutma"
+            src="https://img.icons8.com/ios-filled/100/4caf50/temperature.png"
+          />
+          <h3>Süt Soğutma</h3>
+          <p>
+            Modern soğutma sistemlerimiz ile sütün tazeliğini uzun süre muhafaza
+            ediyoruz.
+          </p>
+        </div>
+        <div class="service-card">
+          <img
+            alt="Dağıtım"
+            src="https://img.icons8.com/ios-filled/100/4caf50/truck.png"
+          />
+          <h3>Dağıtım</h3>
+          <p>
+            Kooperatifimiz ürünlerini güvenli ve hızlı şekilde müşterilere
+            ulaştırır.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Yönetim Ekibi -->
+    <section id="team">
+      <h2>Yönetim Ekibi</h2>
+      <div class="card-grid">
+        <div class="team-card">
+          <img alt="Muzaffer" src="img/muz.jpeg" />
+          <h3>Muzaffer</h3>
+          <p>Kooperatif Başkanı</p>
+        </div>
+        <div class="team-card">
+          <img alt="Muz" src="img/muzo2.jpeg" />
+          <h3>Muzaffer</h3>
+          <p>Finans Müdürü</p>
+        </div>
+        <div class="team-card">
+          <img alt="Muzo" src="img/muz.jpeg" />
+          <h3>Muzaffer</h3>
+          <p>Operasyon Sorumlusu</p>
+        </div>
+      </div>
+    </section>
+    <!-- Galeri -->
+    <section id="galeri">
+      <h2>Galeri</h2>
+      <div class="gallery-grid">
+        <a
+          href="img/inek.jpeg"
+          data-lightbox="sut-galeri"
+          data-title="Süt Toplama Süreci"
+        >
+          <img alt="Süt üretimi 1" src="img/inek.jpeg" />
+        </a>
+        <a
+          href="img/inek2.jpeg"
+          data-lightbox="sut-galeri"
+          data-title="Süt Toplama Süreci"
+        >
+          <img alt="Süt üretimi 1" src="img/inek2.jpeg" />
+        </a>
+
+        <a
+          href="img/yeniinek1.png"
+          data-lightbox="sut-galeri"
+          data-title="Süt Toplama Süreci"
+        >
+          <img alt="Süt üretimi 1" src="img/yeniinek1.png" />
+        </a>
+
+        <a
+          href="img/araba.png"
+          data-lightbox="sut-galeri"
+          data-title="Süt Toplama Süreci"
+        >
+          <img alt="Süt üretimi 1" src="img/araba.png" />
+        </a>
+
+        <a
+          href="img/bdfc83df-c099-4eae-8917-9dca35c07bd1.png"
+          data-lightbox="sut-galeri"
+          data-title="Süt Toplama Süreci"
+        >
+          <img
+            alt="Süt üretimi 1"
+            src="img/bdfc83df-c099-4eae-8917-9dca35c07bd1.png"
+          />
+        </a>
+        <a
+          href="img/araba.png"
+          data-lightbox="sut-galeri"
+          data-title="Süt Toplama Süreci"
+        >
+          <img alt="Süt üretimi 1" src="img/araba.png" />
+        </a>
+
+        <a
+          href="img/bdfc83df-c099-4eae-8917-9dca35c07bd1.png"
+          data-lightbox="sut-galeri"
+          data-title="Süt Toplama Süreci"
+        >
+          <img
+            alt="Süt üretimi 1"
+            src="img/bdfc83df-c099-4eae-8917-9dca35c07bd1.png"
+          />
+        </a>
+        <a
+          href="img/bdfc83df-c099-4eae-8917-9dca35c07bd1.png"
+          data-lightbox="sut-galeri"
+          data-title="Süt Toplama Süreci"
+        >
+          <img
+            alt="Süt üretimi 1"
+            src="img/bdfc83df-c099-4eae-8917-9dca35c07bd1.png"
+          />
+        </a>
+        <a
+          href="img/bdfc83df-c099-4eae-8917-9dca35c07bd1.png"
+          data-lightbox="sut-galeri"
+          data-title="Süt Toplama Süreci"
+        >
+          <img
+            alt="Süt üretimi 1"
+            src="img/bdfc83df-c099-4eae-8917-9dca35c07bd1.png"
+          />
+        </a>
+        <a
+          href="img/bdfc83df-c099-4eae-8917-9dca35c07bd1.png"
+          data-lightbox="sut-galeri"
+          data-title="Süt Toplama Süreci"
+        >
+          <img
+            alt="Süt üretimi 1"
+            src="img/bdfc83df-c099-4eae-8917-9dca35c07bd1.png"
+          />
+        </a>
+      </div>
+    </section>
+    <!-- yeni -->
+    <section id="vizyon">
+      <h2>Vizyonumuz &amp; Misyonumuz</h2>
+      <div style="display: flex; gap: 40px; flex-wrap: wrap">
+        <div style="flex: 1">
+          <h3>Vizyonumuz</h3>
+          <p>
+            Yerel üreticilerimizin gücünü artırarak Türkiye'nin en güvenilir süt
+            tedarikçisi olmak.
+          </p>
+        </div>
+        <div style="flex: 1">
+          <h3>Misyonumuz</h3>
+          <p>
+            Doğal, sağlıklı ve kaliteli süt ürünlerini toplumla buluşturmak.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="sayilarla">
+      <h2>Sayılarla Biz</h2>
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          gap: 30px;
+          flex-wrap: wrap;
+        "
+      >
+        <div
+          style="
+            background: #e8f5e9;
+            padding: 30px;
+            border-radius: 12px;
+            width: 200px;
+            text-align: center;
+          "
+        >
+          <h3 id="uretici-sayisi">0</h3>
+          <p>Üretici</p>
+        </div>
+        <div
+          style="
+            background: #e8f5e9;
+            padding: 30px;
+            border-radius: 12px;
+            width: 200px;
+            text-align: center;
+          "
+        >
+          <h3 id="gunluk-tonaj">0</h3>
+          <p>Günlük Süt (Ton)</p>
+        </div>
+        <div
+          style="
+            background: #e8f5e9;
+            padding: 30px;
+            border-radius: 12px;
+            width: 200px;
+            text-align: center;
+          "
+        >
+          <h3 id="deneyim-yili">0</h3>
+          <p>Yıllık Deneyim</p>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      // Sayfa yüklendiğinde animasyon başlasın
+      window.onload = function () {
+        animateValue("uretici-sayisi", 0, 100, 2000);
+        animateValue("gunluk-tonaj", 0, 20, 2000);
+        animateValue("deneyim-yili", 0, 7, 1000);
+      };
+
+      // Canlı artış fonksiyonu
+      function animateValue(id, start, end, duration) {
+        let obj = document.getElementById(id);
+        let current = start;
+        let increment = end > start ? 1 : -1;
+        let stepTime = Math.abs(Math.floor(duration / (end - start)));
+        let timer = setInterval(() => {
+          current += increment;
+          obj.innerHTML = current + (id === "gunluk-tonaj" ? " Ton" : "+");
+          if (current == end) clearInterval(timer);
+        }, stepTime);
+      }
+    </script>
+    <!-- İletişim -->
+    <section id="iletisim">
+      <h2>İletişim</h2>
+      <div class="contact-cards">
+        <div class="contact-card">
+          <img
+            alt="Telefon"
+            src="https://img.icons8.com/ios-glyphs/30/4caf50/phone.png"
+          />
+          <div>
+            <strong> Telefon: </strong>
+            <br />
+            +90 555 123 45 67
+            <br />
+            +90 555 987 65 43
+          </div>
+        </div>
+        <div class="contact-card">
+          <img
+            alt="E-posta"
+            src="https://img.icons8.com/ios-glyphs/30/4caf50/email.png"
+          />
+          <div>
+            <strong> E-posta: </strong>
+            <br />
+            info@tefennisutkoop.com
+          </div>
+        </div>
+      </div>
+      <!-- Harita -->
+      <iframe
+        allowfullscreen=""
+        height="450"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3146.6153426313363!2d32.50630967570108!3d37.939415771944475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d08e4c00c8248f%3A0x40dde5022b9286ac!2sBinkonutlar%20Rauf%20Orbay%2C%20Safahat%20Cd.%20No%3A53%2C%2042070%20Sel%C3%A7uklu%2FKonya!5e0!3m2!1str!2str!4v1752480038775!5m2!1str!2str"
+        style="border: 0"
+        width="600"
+      >
+      </iframe>
+    </section>
+    <!-- Footer -->
+    <footer>
+      © 2025 Tefenni Süt Kooperatifi. Tüm hakları saklıdır.
+      <div class="social-media">
+        <a href="#">
+          <img alt="Facebook" src="img/facebookicon.png" width="30" />
+        </a>
+        <a href="#">
+          <img alt="Instagram" src="img/indir.jpeg" width="30" />
+        </a>
+      </div>
+    </footer>
+    <script>
+      const navLinks = document.querySelectorAll("nav ul li a");
+      const sections = document.querySelectorAll("section, header.hero");
+
+      // Aktifliği güncelle
+      function updateActiveSection() {
+        let current = "";
+        const scrollY = window.pageYOffset;
+
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop - 100;
+          const sectionHeight = section.offsetHeight;
+
+          if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+            current = section.getAttribute("id");
+          }
+        });
+
+        navLinks.forEach((link) => {
+          link.classList.remove("active");
+          if (link.getAttribute("href") === "#" + current) {
+            link.classList.add("active");
+          }
+        });
+      }
+
+      window.addEventListener("scroll", updateActiveSection);
+
+      // Tıklamada geçici active ver, scroll ile sonra uyumlu hale gelir
+      navLinks.forEach((link) => {
+        link.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          const targetId = this.getAttribute("href").substring(1);
+          const target = document.getElementById(targetId);
+
+          // Geçici olarak aktifliği ver
+          navLinks.forEach((l) => l.classList.remove("active"));
+          this.classList.add("active");
+
+          // Scroll yap
+          window.scrollTo({
+            top: target.offsetTop - 80,
+            behavior: "smooth",
+          });
+        });
+      });
+
+      // Sayfa ilk açıldığında da güncelle
+      window.addEventListener("load", updateActiveSection);
+    </script>
+    <script>
+      const hero = document.querySelector("header.hero");
+
+      const images = ["img/yeniinek1", "img/yeniinek2.png"];
+
+      let currentIndex = 0;
+
+      setInterval(() => {
+        currentIndex = (currentIndex + 1) % images.length;
+        hero.style.backgroundImage = url("${images[currentIndex]}");
+      }, 15000); // 5 saniyede bir geçiş
+    </script>
+    <script>
+      function toggleMenu() {
+        const menu = document.querySelector("nav ul");
+        menu.classList.toggle("show");
+      }
+    </script>
+    <script>
+      lightbox.option({
+        resizeDuration: 200,
+        wrapAround: true,
+        fadeDuration: 300,
+        imageFadeDuration: 300,
+        alwaysShowNavOnTouchDevices: true,
+      });
+    </script>
+  </body>
+</html>
